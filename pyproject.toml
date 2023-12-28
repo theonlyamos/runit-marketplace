@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "runit-marketplace"
+version = "0.1.0"
+description = "A place to get plugins for extending your runit application's functionalities"
+authors = ["theonlyamos <theonlyamos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
